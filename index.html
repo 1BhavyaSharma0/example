@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NEXUS — Digital Marketing Agency</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">NEXUS</div>
+    <div class="loader-bar"><div class="loader-fill" id="loaderFill"></div></div>
+    <div class="loader-text">Initializing Digital Excellence...</div>
+  </div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#" class="nav-logo"><span class="logo-dot"></span>NEXUS</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Work</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#ai-assistant" class="btn-ai"><i class="fas fa-robot"></i> AI Assistant</a>
+      <a href="#contact" class="btn-primary">Get Started</a>
+    </div>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+  </div>
+  <div class="hero-container">
+    <div class="hero-badge"><span class="badge-dot"></span>AI-Powered Marketing Solutions</div>
+    <h1 class="hero-title">We Build<br/><span class="title-highlight">Digital Empires</span><br/>That Last</h1>
+    <p class="hero-desc">From strategy to execution — we craft data-driven digital experiences that transform brands into market leaders. Powered by AI, driven by results.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-hero-primary">Start Your Journey</a>
+      <a href="#portfolio" class="btn-hero-secondary"><span class="play-icon">▶</span> View Our Work</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item"><span class="stat-num" data-count="500">0</span><span>+</span><span class="stat-label">Clients Served</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-num" data-count="98">0</span><span>%</span><span class="stat-label">Retention Rate</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-num" data-count="12">0</span><span>x</span><span class="stat-label">Avg. ROI Growth</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-num" data-count="8">0</span><span>+</span><span class="stat-label">Years Experience</span></div>
+    </div>
+  </div>
+  <div class="hero-scroll"><div class="scroll-line"></div><span>Scroll</span></div>
+</section>
+
+<div class="marquee-section">
+  <div class="marquee-track">
+    <span>Web Development</span><span class="dot">✦</span>
+    <span>Social Media Marketing</span><span class="dot">✦</span>
+    <span>Content Marketing</span><span class="dot">✦</span>
+    <span>Email Marketing</span><span class="dot">✦</span>
+    <span>PPC Advertising</span><span class="dot">✦</span>
+    <span>Affiliate Marketing</span><span class="dot">✦</span>
+    <span>Public Relations</span><span class="dot">✦</span>
+    <span>Web Development</span><span class="dot">✦</span>
+    <span>Social Media Marketing</span><span class="dot">✦</span>
+    <span>Content Marketing</span><span class="dot">✦</span>
+    <span>Email Marketing</span><span class="dot">✦</span>
+    <span>PPC Advertising</span><span class="dot">✦</span>
+    <span>Affiliate Marketing</span><span class="dot">✦</span>
+    <span>Public Relations</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Our Services</div>
+      <h2 class="section-title">Everything You Need<br/>to <span class="highlight">Dominate</span> Online</h2>
+      <p class="section-desc">A full suite of digital marketing services engineered for maximum impact and measurable growth.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" data-service="web">
+        <div class="service-icon-wrap"><div class="service-icon"><i class="fas fa-code"></i></div></div>
+        <div class="service-num">01</div>
+        <h3>Web Development</h3>
+        <p>High-performance websites and web apps built with cutting-edge tech stacks. SEO-optimized, lightning-fast, and conversion-focused.</p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i>Custom Design & Development</li>
+          <li><i class="fas fa-check"></i>E-commerce Solutions</li>
+          <li><i class="fas fa-check"></i>CMS Integration</li>
+          <li><i class="fas fa-check"></i>Performance Optimization</li>
+        </ul>
+        <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card featured" data-service="smm">
+        <div class="service-badge">Most Popular</div>
+        <div class="service-icon-wrap"><div class="service-icon"><i class="fas fa-share-nodes"></i></div></div>
+        <div class="service-num">02</div>
+        <h3>Social Media Marketing</h3>
+        <p>AI-driven social strategies that build communities, amplify reach, and convert followers into loyal customers.</p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i>Strategy & Content Planning</li>
+          <li><i class="fas fa-check"></i>Community Management</li>
+          <li><i class="fas fa-check"></i>Influencer Partnerships</li>
+          <li><i class="fas fa-check"></i>Analytics & Reporting</li>
+        </ul>
+        <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-service="content">
+        <div class="service-icon-wrap"><div class="service-icon"><i class="fas fa-pen-nib"></i></div></div>
+        <div class="service-num">03</div>
+        <h3>Content Marketing</h3>
+        <p>Compelling stories and strategic content that educates, engages, and converts — enhanced by AI tools.</p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i>Blog & Article Writing</li>
+          <li><i class="fas fa-check"></i>Video Production</li>
+          <li><i class="fas fa-check"></i>Infographic Design</li>
+          <li><i class="fas fa-check"></i>SEO Content Strategy</li>
+        </ul>
+        <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-service="email">
+        <div class="service-icon-wrap"><div class="service-icon"><i class="fas fa-envelope-open-text"></i></div></div>
+        <div class="service-num">04</div>
+        <h3>Email Marketing</h3>
+        <p>Precision-targeted email campaigns with personalization at scale. Automated sequences that nurture leads.</p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i>Campaign Strategy</li>
+          <li><i class="fas fa-check"></i>Automation Workflows</li>
+          <li><i class="fas fa-check"></i>List Segmentation</li>
+          <li><i class="fas fa-check"></i>A/B Testing</li>
+        </ul>
+        <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-service="ppc">
+        <div class="service-icon-wrap"><div class="service-icon"><i class="fas fa-chart-line"></i></div></div>
+        <div class="service-num">05</div>
+        <h3>PPC Advertising</h3>
+        <p>Data-driven pay-per-click campaigns on Google, Meta, LinkedIn & more. Maximum ROI on every dollar spent.</p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i>Google & Meta Ads</li>
+          <li><i class="fas fa-check"></i>Campaign Optimization</li>
+          <li><i class="fas fa-check"></i>Landing Page Design</li>
+          <li><i class="fas fa-check"></i>Conversion Tracking</li>
+        </ul>
+        <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-service="affiliate">
+        <div class="service-icon-wrap"><div class="service-icon"><i class="fas fa-handshake"></i></div></div>
+        <div class="service-num">06</div>
+        <h3>Affiliate Marketing</h3>
+        <p>Build and manage high-performing affiliate networks that expand your reach and generate performance-based revenue.</p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i>Program Setup & Management</li>
+          <li><i class="fas fa-check"></i>Partner Recruitment</li>
+          <li><i class="fas fa-check"></i>Commission Optimization</li>
+          <li><i class="fas fa-check"></i>Performance Tracking</li>
+        </ul>
+        <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card service-full" data-service="pr">
+        <div class="service-icon-wrap"><div class="service-icon"><i class="fas fa-bullhorn"></i></div></div>
+        <div class="service-num">07</div>
+        <h3>Public Relations</h3>
+        <p>Strategic PR campaigns that shape narratives, build credibility, and position your brand as an industry authority. Media placements, crisis management, and thought leadership programs.</p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i>Media Relations & Press Coverage</li>
+          <li><i class="fas fa-check"></i>Crisis Communication</li>
+          <li><i class="fas fa-check"></i>Thought Leadership</li>
+          <li><i class="fas fa-check"></i>Brand Reputation Management</li>
+        </ul>
+        <a href="#contact" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-card-main">
+          <div class="about-orb"></div>
+          <div class="about-metric">
+            <span class="metric-val">$2.4B+</span>
+            <span class="metric-label">Revenue Generated for Clients</span>
+          </div>
+        </div>
+        <div class="about-card-float top-right"><i class="fas fa-robot"></i><span>AI-Powered Analytics</span></div>
+        <div class="about-card-float bottom-left">
+          <div class="mini-chart">
+            <div class="bar" style="height:40%"></div>
+            <div class="bar" style="height:65%"></div>
+            <div class="bar" style="height:50%"></div>
+            <div class="bar" style="height:85%"></div>
+            <div class="bar active" style="height:95%"></div>
+          </div>
+          <span>+340% Growth</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-tag">Who We Are</div>
+        <h2 class="section-title">We're Not an Agency.<br/>We're Your <span class="highlight">Growth Partner</span></h2>
+        <p>Founded in 2016, NEXUS has been at the forefront of digital innovation. We combine deep strategic thinking with cutting-edge AI tools to deliver results most agencies can only promise.</p>
+        <p>Our team of 80+ specialists across design, development, data science, and marketing work as an extension of your team — obsessing over your metrics as if they were our own.</p>
+        <div class="about-values">
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-brain"></i></div>
+            <div><h4>Data-First Thinking</h4><p>Every decision backed by real analytics and AI insights.</p></div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-rocket"></i></div>
+            <div><h4>Speed to Market</h4><p>Agile execution without sacrificing quality or strategy.</p></div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-shield-halved"></i></div>
+            <div><h4>Radical Transparency</h4><p>Clear reporting, honest communication, zero surprises.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Our Work</div>
+      <h2 class="section-title">Results That <span class="highlight">Speak</span></h2>
+      <p class="section-desc">Real campaigns, real outcomes. A glimpse of what we've built for our clients.</p>
+    </div>
+    <div class="portfolio-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Dev</button>
+      <button class="filter-btn" data-filter="smm">Social Media</button>
+      <button class="filter-btn" data-filter="ppc">PPC</button>
+      <button class="filter-btn" data-filter="content">Content</button>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid">
+      <div class="portfolio-item" data-cat="web">
+        <div class="portfolio-img" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364)">
+          <div class="portfolio-overlay"><h3>FinTech Platform Redesign</h3><p>+240% conversion rate</p><a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a></div>
+          <div class="p-icon"><i class="fas fa-landmark"></i></div>
+        </div>
+        <div class="portfolio-info"><span class="p-tag">Web Development</span><h4>FinTech Platform Redesign</h4></div>
+      </div>
+      <div class="portfolio-item large" data-cat="smm">
+        <div class="portfolio-img" style="background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460)">
+          <div class="portfolio-overlay"><h3>Fashion Brand Social Launch</h3><p>2.1M followers in 6 months</p><a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a></div>
+          <div class="p-icon"><i class="fas fa-shirt"></i></div>
+        </div>
+        <div class="portfolio-info"><span class="p-tag">Social Media Marketing</span><h4>Fashion Brand Social Launch</h4></div>
+      </div>
+      <div class="portfolio-item" data-cat="ppc">
+        <div class="portfolio-img" style="background:linear-gradient(135deg,#0d0d0d,#1a1a1a,#333)">
+          <div class="portfolio-overlay"><h3>E-commerce PPC Campaign</h3><p>18x ROAS achieved</p><a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a></div>
+          <div class="p-icon"><i class="fas fa-cart-shopping"></i></div>
+        </div>
+        <div class="portfolio-info"><span class="p-tag">PPC Advertising</span><h4>E-commerce PPC Campaign</h4></div>
+      </div>
+      <div class="portfolio-item" data-cat="content">
+        <div class="portfolio-img" style="background:linear-gradient(135deg,#141e30,#243b55)">
+          <div class="portfolio-overlay"><h3>SaaS Content Strategy</h3><p>560% organic traffic growth</p><a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a></div>
+          <div class="p-icon"><i class="fas fa-cloud"></i></div>
+        </div>
+        <div class="portfolio-info"><span class="p-tag">Content Marketing</span><h4>SaaS Content Strategy</h4></div>
+      </div>
+      <div class="portfolio-item large" data-cat="web">
+        <div class="portfolio-img" style="background:linear-gradient(135deg,#0a0a0a,#1c1c1c,#2d2d2d)">
+          <div class="portfolio-overlay"><h3>Healthcare Portal</h3><p>Built for 500K+ daily users</p><a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a></div>
+          <div class="p-icon"><i class="fas fa-hospital"></i></div>
+        </div>
+        <div class="portfolio-info"><span class="p-tag">Web Development</span><h4>Healthcare Portal Development</h4></div>
+      </div>
+      <div class="portfolio-item" data-cat="ppc">
+        <div class="portfolio-img" style="background:linear-gradient(135deg,#0f0c29,#302b63,#24243e)">
+          <div class="portfolio-overlay"><h3>Real Estate Lead Gen</h3><p>$1.2M leads in 90 days</p><a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a></div>
+          <div class="p-icon"><i class="fas fa-house"></i></div>
+        </div>
+        <div class="portfolio-info"><span class="p-tag">PPC + Email</span><h4>Real Estate Lead Gen</h4></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Pricing Plans</div>
+      <h2 class="section-title">Invest in Your <span class="highlight">Growth</span></h2>
+      <p class="section-desc">Transparent pricing. No hidden fees. Scale up as you grow.</p>
+    </div>
+    <div class="pricing-toggle">
+      <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+      <div class="toggle-switch" id="pricingToggle"><div class="toggle-thumb"></div></div>
+      <span class="toggle-label" id="annualLabel">Annual <span class="save-badge">Save 20%</span></span>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="plan-name">Starter</div>
+        <div class="plan-price"><span class="currency">$</span><span class="amount monthly-price">999</span><span class="amount annual-price hidden">799</span><span class="period">/mo</span></div>
+        <p class="plan-desc">Perfect for startups and small businesses ready to grow.</p>
+        <ul class="plan-features">
+          <li><i class="fas fa-check"></i>Website (5 pages)</li>
+          <li><i class="fas fa-check"></i>Social Media (2 platforms)</li>
+          <li><i class="fas fa-check"></i>8 Content Pieces/month</li>
+          <li><i class="fas fa-check"></i>Email Campaign (2/month)</li>
+          <li><i class="fas fa-check"></i>Monthly Reporting</li>
+          <li class="inactive"><i class="fas fa-times"></i>PPC Management</li>
+          <li class="inactive"><i class="fas fa-times"></i>PR Coverage</li>
+          <li class="inactive"><i class="fas fa-times"></i>Affiliate Program</li>
+        </ul>
+        <a href="#contact" class="btn-plan">Get Started</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="plan-badge">Most Popular</div>
+        <div class="plan-name">Growth</div>
+        <div class="plan-price"><span class="currency">$</span><span class="amount monthly-price">2499</span><span class="amount annual-price hidden">1999</span><span class="period">/mo</span></div>
+        <p class="plan-desc">For scaling businesses that need a comprehensive digital engine.</p>
+        <ul class="plan-features">
+          <li><i class="fas fa-check"></i>Custom Website Development</li>
+          <li><i class="fas fa-check"></i>Social Media (5 platforms)</li>
+          <li><i class="fas fa-check"></i>20 Content Pieces/month</li>
+          <li><i class="fas fa-check"></i>Email Automation Setup</li>
+          <li><i class="fas fa-check"></i>PPC Management ($5K budget)</li>
+          <li><i class="fas fa-check"></i>Weekly Reporting + AI Insights</li>
+          <li><i class="fas fa-check"></i>Affiliate Program Setup</li>
+          <li class="inactive"><i class="fas fa-times"></i>PR Coverage</li>
+        </ul>
+        <a href="#contact" class="btn-plan featured">Get Started</a>
+      </div>
+      <div class="pricing-card">
+        <div class="plan-name">Enterprise</div>
+        <div class="plan-price"><span class="currency">$</span><span class="amount monthly-price">5999</span><span class="amount annual-price hidden">4799</span><span class="period">/mo</span></div>
+        <p class="plan-desc">Full-stack marketing domination for established brands.</p>
+        <ul class="plan-features">
+          <li><i class="fas fa-check"></i>Multi-page Web Ecosystem</li>
+          <li><i class="fas fa-check"></i>All Social Platforms</li>
+          <li><i class="fas fa-check"></i>Unlimited Content Production</li>
+          <li><i class="fas fa-check"></i>Advanced Email Automation</li>
+          <li><i class="fas fa-check"></i>PPC ($20K+ budget)</li>
+          <li><i class="fas fa-check"></i>Real-time AI Dashboard</li>
+          <li><i class="fas fa-check"></i>Full Affiliate Management</li>
+          <li><i class="fas fa-check"></i>PR + Media Coverage</li>
+        </ul>
+        <a href="#contact" class="btn-plan">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Testimonials</div>
+      <h2 class="section-title">What Our Clients <span class="highlight">Say</span></h2>
+    </div>
+    <div class="testimonials-slider" id="testimonialsSlider">
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"NEXUS completely transformed our digital presence. In 6 months, our organic traffic tripled and our conversion rate went from 1.2% to 4.8%. These guys are the real deal."</p><div class="testimonial-author"><div class="author-avatar">SK</div><div><strong>Sarah Kim</strong><span>CEO, TechFlow SaaS</span></div></div></div>
+        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"Their PPC team is exceptional. We were burning money on Google Ads before NEXUS took over. Now we have a 14x ROAS and it keeps climbing every month."</p><div class="testimonial-author"><div class="author-avatar">MR</div><div><strong>Marcus Reid</strong><span>Founder, EcoShop</span></div></div></div>
+        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"The website they built for us is absolutely stunning. Not just beautiful — it loads in under 2 seconds and has become our best salesperson. Revenue from the site is up 380%."</p><div class="testimonial-author"><div class="author-avatar">AP</div><div><strong>Amara Patel</strong><span>CMO, LuxeWear</span></div></div></div>
+        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"NEXUS's PR team got us into Forbes, TechCrunch, and 12 other top publications within 4 months. Our brand credibility skyrocketed and investor interest followed."</p><div class="testimonial-author"><div class="author-avatar">JL</div><div><strong>James Liu</strong><span>Co-Founder, Nexabit AI</span></div></div></div>
+        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"We went from 5,000 to 800,000 Instagram followers in under a year with their social strategy. The community they built is genuinely engaged and buying."</p><div class="testimonial-author"><div class="author-avatar">ZA</div><div><strong>Zara Ahmed</strong><span>Brand Director, Pulse Fitness</span></div></div></div>
+      </div>
+      <div class="slider-controls">
+        <button class="slider-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-dots" id="sliderDots"></div>
+        <button class="slider-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ai-section" id="ai-assistant">
+  <div class="container">
+    <div class="ai-wrapper">
+      <div class="ai-header">
+        <div class="ai-icon-wrap"><i class="fas fa-robot"></i></div>
+        <div>
+          <h2>Meet <span class="highlight">NEXUS AI</span></h2>
+          <p>Your intelligent marketing consultant available 24/7. Ask anything about digital marketing strategy.</p>
+        </div>
+      </div>
+      <div class="ai-chat" id="aiChat">
+        <div class="chat-messages" id="chatMessages">
+          <div class="message bot">
+            <div class="msg-avatar"><i class="fas fa-robot"></i></div>
+            <div class="msg-content">
+              <p>Hello! I'm NEXUS AI, your digital marketing assistant. How can I help you today?</p>
+              <div class="quick-replies">
+                <button class="quick-btn" onclick="sendQuick('What services do you offer?')">Our Services</button>
+                <button class="quick-btn" onclick="sendQuick('How can I improve my social media presence?')">Social Media Tips</button>
+                <button class="quick-btn" onclick="sendQuick('What is PPC advertising and how does it work?')">About PPC</button>
+                <button class="quick-btn" onclick="sendQuick('How do I improve my website conversion rate?')">Boost Conversions</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chat-input-area">
+          <input type="text" id="chatInput" placeholder="Ask about digital marketing, our services, strategy..."/>
+          <button id="sendBtn" onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Ready to <span class="highlight">Grow?</span></h2>
+        <p>Our team will reach out within 2 business hours with a personalized strategy session.</p>
+        <div class="contact-details">
+          <div class="contact-item"><div class="ci-icon"><i class="fas fa-envelope"></i></div><div><strong>Email Us</strong><span>hello@nexusagency.io</span></div></div>
+          <div class="contact-item"><div class="ci-icon"><i class="fas fa-phone"></i></div><div><strong>Call Us</strong><span>+1 (800) 639-8700</span></div></div>
+          <div class="contact-item"><div class="ci-icon"><i class="fas fa-location-dot"></i></div><div><strong>Visit Us</strong><span>350 Fifth Avenue, New York, NY 10118</span></div></div>
+        </div>
+        <div class="contact-socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group"><label>Full Name</label><input type="text" name="name" placeholder="John Doe" required/></div>
+            <div class="form-group"><label>Email Address</label><input type="email" name="email" placeholder="john@company.com" required/></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Phone Number</label><input type="tel" name="phone" placeholder="+1 (555) 000-0000"/></div>
+            <div class="form-group"><label>Company</label><input type="text" name="company" placeholder="Your Company Name"/></div>
+          </div>
+          <div class="form-group">
+            <label>Services Interested In</label>
+            <div class="service-checkboxes">
+              <label class="checkbox-item"><input type="checkbox" name="services[]" value="web"/> Web Development</label>
+              <label class="checkbox-item"><input type="checkbox" name="services[]" value="smm"/> Social Media</label>
+              <label class="checkbox-item"><input type="checkbox" name="services[]" value="content"/> Content Marketing</label>
+              <label class="checkbox-item"><input type="checkbox" name="services[]" value="email"/> Email Marketing</label>
+              <label class="checkbox-item"><input type="checkbox" name="services[]" value="ppc"/> PPC Advertising</label>
+              <label class="checkbox-item"><input type="checkbox" name="services[]" value="affiliate"/> Affiliate Marketing</label>
+              <label class="checkbox-item"><input type="checkbox" name="services[]" value="pr"/> Public Relations</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Monthly Budget</label>
+            <select name="budget">
+              <option value="">Select budget range</option>
+              <option value="under-1k">Under $1,000</option>
+              <option value="1k-3k">$1,000 – $3,000</option>
+              <option value="3k-7k">$3,000 – $7,000</option>
+              <option value="7k-15k">$7,000 – $15,000</option>
+              <option value="15k+">$15,000+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell Us About Your Goals</label>
+            <textarea name="message" rows="4" placeholder="Describe your business goals, challenges, and what you hope to achieve..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="submitBtn"><span>Send Message</span><i class="fas fa-arrow-right"></i></button>
+          <div class="form-success hidden" id="formSuccess"><i class="fas fa-circle-check"></i><strong>Message Sent!</strong><p>We'll reach out within 2 business hours.</p></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><span class="logo-dot"></span>NEXUS</div>
+          <p>We transform brands into digital powerhouses through AI-driven strategy, creative execution, and relentless focus on results.</p>
+          <div class="footer-socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Services</h4><ul><li><a href="#services">Web Development</a></li><li><a href="#services">Social Media Marketing</a></li><li><a href="#services">Content Marketing</a></li><li><a href="#services">Email Marketing</a></li><li><a href="#services">PPC Advertising</a></li><li><a href="#services">Affiliate Marketing</a></li><li><a href="#services">Public Relations</a></li></ul></div>
+        <div class="footer-col"><h4>Company</h4><ul><li><a href="#about">About Us</a></li><li><a href="#portfolio">Our Work</a></li><li><a href="#">Blog</a></li><li><a href="#">Careers</a></li><li><a href="#contact">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Newsletter</h4><p>Get weekly marketing insights delivered to your inbox.</p><div class="newsletter-form"><input type="email" placeholder="your@email.com"/><button><i class="fas fa-arrow-right"></i></button></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2024 NEXUS Digital Agency. All rights reserved.</p>
+      <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Cookie Policy</a></div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop"><i class="fas fa-arrow-up"></i></button>
+
+<script src="main.js"></script>
+<script src="ai-chat.js"></script>
+<script src="animations.js"></script>
+</body>
+</html>
